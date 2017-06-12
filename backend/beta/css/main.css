@@ -1,0 +1,230 @@
+.card-view {
+	background-color: #ecf0f1;
+	padding: 25px 0;
+}
+.card-view .card {
+	background-color: white;
+	border-top: 1px solid rgba(0,0,0,0.25);
+	border-right: 2px solid rgba(0,0,0,0.25);
+	border-bottom: 3px solid rgba(0,0,0,0.25);
+	border-left: 1px solid rgba(0,0,0,0.25);
+	border-radius: 3px;
+}
+.card-view .card .card-image-wrapper {
+	display: block;
+}
+.card-view .card .card-image img {
+	width: 100%;
+}
+.card-view .card .card-info-wrapper {
+	padding: 10px;
+}
+.card-view .card .card-info h4 {
+	text-align: center;
+}
+.card-view .card .card-info h4 a {
+	color: #3498db;
+}
+.card-view .card .card-action .card-action-button.btn.btn-default {
+	width: 100%;
+	border-radius: 0;
+	border-right: none;
+	border-bottom: none;
+	border-left: none;
+	font-weight: bold;
+	color: #3498db;
+	padding: 15px 0;
+}
+.card-view .card .card-action .btn-group-justified .btn-group .btn.btn-default {
+	border-radius: 0;
+	color: #3498db;
+	font-weight: bold;
+	border-right: none;
+	border-bottom: none;
+	z-index: 0 !important;
+}
+.card-view .card .card-action .btn-group-justified .btn-group:first-child .btn.btn-default {
+	border-left: none;
+}
+.card-view .card table.table tbody {
+	font-size: 16px;
+}
+
+.btn.btn-cookie {
+	border-right: 2px solid rgba(0,0,0,0.25);
+	border-bottom: 3px solid rgba(0,0,0,0.25);
+	display: table;
+	border-collapse: separate;
+	padding: 0;
+}
+.btn.btn-cookie .btn-addon {
+	vertical-align: middle;
+	display: table-cell;
+	padding: 10px;
+	border-right: 1px solid rgba(0,0,0,0.25);
+}
+.btn.btn-cookie .btn-label {
+	vertical-align: middle;
+	display: table-cell;
+	padding: 10px;
+}
+select.btn.btn-cookie {
+	padding: 10px;
+}
+.form-control.form-cookie {
+	line-height: 1.42857143;
+	padding: 19px 10px;
+	border-right: 2px solid rgba(0,0,0,0.35);
+	border-bottom: 3px solid rgba(0,0,0,0.35);
+}
+
+/*
+*	Login
+*/
+#login-form {
+	width: 300px;
+	margin: 25px auto;
+	padding: 15px 10px;
+	background-color: white;
+	border-radius: 2px;
+	border-right: 2px solid rgba(0,0,0,0.35);
+	border-bottom: 3px solid rgba(0,0,0,0.35);
+}
+
+/*
+*	Dashbooard
+*/
+#header .site-info-container {
+	background-color: #3498db;
+}
+#header .site-info h1 {
+	text-align: center;
+	color: white;
+}
+#header .nav-main {
+	margin-top: 25px;
+}
+#header .nav-main > a {
+	float: left;
+	margin-right: 5px;
+}
+#header .nav-main:before,
+#header .nav-main:after {
+	content: "";
+	display: table;
+}
+#header .nav-main:after {
+	clear: both;
+}
+
+.filter > .filter-items {
+	float: left;
+	margin-bottom: 10px;
+}
+.filter > .filter-items > * {
+	float: left;
+	margin-right: 10px;
+}
+
+/*
+*	Dashboard Maps
+*/
+#dashboard-map {
+	position: relative;
+}
+#dashboard-map #header {
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 10;
+}
+#dashboard-map #header .site-info {
+	padding: 10px 0;
+}
+#dashboard-map #header .site-info h1 {
+	margin: 0;
+	font-size: 25px;
+}
+#dashboard-map #header .site-info h1 img {
+	height: 50px;
+}
+#dashboard-map #header .nav-main-container,
+#dashboard-map #header .filter-container {
+	background-color: white;
+	position: absolute;
+	right: 0;
+	left: 0;
+}
+#dashboard-map #header .nav-main,
+#dashboard-map #header .filter {
+	margin: 5px;
+	height: 0;
+	overflow: hidden;
+	transition: height 500ms ease;
+}
+#dashboard-map #header .nav-main-button-wrapper {
+	position: absolute;
+	top: 100%;
+}
+#dashboard-map #header .nav-main-button {
+	background-color: white;
+	padding: 10px 15px;
+	border: 0;
+	border-radius: 0 0 3px 3px;
+}
+#dashboard-map #header .filter-container .nav-main-button-wrapper {
+	margin-left: 94px;
+}
+#dashboard-map #header .nav-main-container.nav-main-container-active {
+	z-index: 3;
+}
+#dashboard-map #header .nav-main-container.nav-main-container-active .nav-main {
+	height: 44px;
+}
+#dashboard-map #header .filter-container.nav-main-container-active .filter {
+	height: 104px;
+}
+
+/*
+*	Halaman Verivikasi
+*/
+.popup-wrapper {
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background-color: rgba(0,0,0,0.5);
+	overflow-x: hidden;
+	display: none;
+}
+.popup-container {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	width: 1170px;
+	transform: translate(-50%, -50%);
+}
+.popup {
+	background-color: white;
+	border-radius: 3px;
+}
+.popup-form-container {
+	padding: 15px;
+}
+
+.popup-active {
+	overflow: hidden;
+}
+.popup-active .popup-wrapper {
+	display: block;
+}
+table.table.table-default-information tr td {
+	border-top: none;
+}
+table.table.table-default-information tr td:first-child {
+	white-space: nowrap;
+	font-weight: bold;
+	text-align: right;
+}

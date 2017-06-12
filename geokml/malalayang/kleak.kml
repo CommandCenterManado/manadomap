@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>kleak.kml</name>
+	<Style id="PolyStyle011">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>7f6e6e6e</color>
+			<width>0.4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f5c878a</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="ID_00011">
+		<name>KLEAK</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>KLEAK</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>11</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESA</td>
+
+<td>KLEAK</td>
+
+</tr>
+
+<tr>
+
+<td>KECAMATAN</td>
+
+<td>MALALAYANG</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>KABUPATEN</td>
+
+<td>MANADO</td>
+
+</tr>
+
+<tr>
+
+<td>PROVINSI</td>
+
+<td>SULAWESI UTARA</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area</td>
+
+<td>65.207515</td>
+
+</tr>
+
+<tr>
+
+<td>Poverty</td>
+
+<td>38</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Population</td>
+
+<td>5158</td>
+
+</tr>
+
+<tr>
+
+<td>Density</td>
+
+<td>79.101313</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PDAM</td>
+
+<td>503</td>
+
+</tr>
+
+<tr>
+
+<td>Longsor</td>
+
+<td>2</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Banjir</td>
+
+<td>0</td>
+
+</tr>
+
+<tr>
+
+<td>Growth</td>
+
+<td>5.52</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+		<styleUrl>#PolyStyle011</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							124.8333176797697,1.457563130879006,0 124.8333333331514,1.457612967589085,0 124.8335536713725,1.458314472248039,0 124.8335603095568,1.458333333605091,0 124.8337847489607,1.458971042315539,0 124.83407477955,1.460007972514891,0 124.8344460350215,1.460945260923667,0 124.8344089395386,1.461048428111027,0 124.8339152466003,1.461342515361759,0 124.8333853471256,1.461662009475688,0 124.8333333332079,1.461693507598465,0 124.8321183654921,1.462429256632763,0 124.8320896992432,1.463243703570794,0 124.8320747520978,1.463853596374924,0 124.8316238360672,1.463789015296081,0 124.8312621137218,1.463738474369512,0 124.8302881147934,1.463580060585466,0 124.8291073636182,1.4633974027672,0 124.8291391368076,1.463042734462261,0 124.8291548995559,1.462164713454499,0 124.8291446087103,1.461237057687177,0 124.8291585072199,1.460877724434413,0 124.8290068789099,1.460538693793491,0 124.8285102872075,1.459585445042703,0 124.8280939109896,1.458703869063778,0 124.8279488866564,1.458333333575352,0 124.8274589591331,1.457081571804611,0 124.8270835774774,1.456134041791579,0 124.8287985464307,1.455219160305165,0 124.8287249629673,1.454779814783304,0 124.8286788989119,1.45452206909659,0 124.828614390119,1.45395770168255,0 124.8285827013936,1.453632609858336,0 124.8284423727128,1.453326732786811,0 124.8290527815012,1.452680762947028,0 124.8294163450346,1.452437323394996,0 124.8295293721774,1.452376816081372,0 124.8295440546721,1.451696711177261,0 124.8299731642237,1.451687370176466,0 124.8310449605652,1.451657521897646,0 124.8318756592613,1.451633510975017,0 124.8319198944024,1.452654231552371,0 124.831963929846,1.452844065156294,0 124.8321753092227,1.453063404107693,0 124.8322686372064,1.453166122561766,0 124.8323036098685,1.453452180566818,0 124.8323962373538,1.4538044391459,0 124.8328128066013,1.455459782781632,0 124.8330853007195,1.456823289433451,0 124.8333176797697,1.457563130879006,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

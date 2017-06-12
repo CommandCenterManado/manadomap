@@ -1,0 +1,242 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+
+body,ul,li,a,form,input,p,h1,h2,h3,h4,h5,h6,pre,div,span {
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+header {
+    margin: 0;
+    padding: 10px;
+    background-color: #337ab7;
+    /*background-blend-mode: soft-light;*/
+    text-align: center;
+    color: white;
+}
+header img {
+    display: inline-block;
+    width: 50px;
+    height: 60px;
+}
+#notif {
+    position: absolute;
+    top: 100px;
+    right: 50px;
+    background-color: #2cc36b;
+    padding: 10px;
+    z-index: 99;
+    color: white;
+}
+nav {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 20px;
+    padding-left: 30px;
+}
+article {
+    width: 100%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.carding {
+    display: inline-block;
+    width: 100%;
+    height: 500px;
+    overflow-x: hidden;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 30px;
+    background-color: rgba(0,0,0,.1);
+    display: inline-block;
+    position: relative;
+}
+.card .preview {
+    float: left;
+    width: 40%;
+}
+.card .details {
+    float: left;
+    width: 60%;
+    padding: 3px 15px;
+}
+.card .preview.top {
+    float: none;
+    width: 100%;
+}
+.card .preview.top img {
+    height: 100px;
+}
+.card .details.bottom {
+    float: none;
+    width: 100%;
+}
+.card .details.bottom h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card .details hr {
+    margin: 7px 0;
+}
+.card .preview img {
+    width: 100%;
+    height: 190px;
+    object-fit: cover;
+}
+a.btn,.btn {
+    padding: 5px 10px;
+    text-decoration: none;
+    background-color: #337ab7;
+    color: white;
+    border: 0px;
+}
+.btn:hover {
+    color: white;
+}
+a.btn {
+    text-decoration: none !important;
+}
+.red {
+    background-color: crimson !important;
+}
+.green {
+    background-color: #27AE60 !important;
+}
+.silver {
+    background-color: #bdc3c7 !important;
+}
+.midnight-blue {
+    background-color: #2c3e50 !important;
+}
+.yellow {
+    background-color: #f1c40f !important;
+}
+.pumpkin {
+    background-color: #d35400 !important;
+}
+.text-green {
+    color: #27AE60 !important;
+}
+.silver-text {
+    color: #bdc3c7 !important;
+}
+.text-pumpkin {
+    color: #d35400 !important;
+}
+
+
+.tilt {
+    display: inline-block;
+    width: 100%;
+}
+.tilt .preview {
+    width: 40%;
+    float: left;
+}
+.tilt .preview img {
+    width: 100%;
+}
+.tilt .handle-form {
+    width: 60%;
+    float: left;
+    padding-right: 50px;
+}
+#form hr {
+    margin: 10px;
+}
+#form input,#form select {
+    width: 100%;
+    padding: 5px 0;
+}
+#form.filter input,#form.filter select {
+    width: inherit;
+}
+
+#latlngpicker.normal {
+    width: 100%;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+}
+#latlngpicker.fullscreen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+#go_normal {
+    display: none;
+    position: fixed;
+    top: 30px;
+    z-index: 90;
+}
+
+#loginForm hr {
+    margin: 10px;
+}
+#loginForm input {
+    padding: 5px 0;
+    width: 90%;
+}
+
+.conlap {
+    max-height: 500px;
+    height: 100vh;
+    overflow-x: hidden;
+    /*border: 2px solid grey;*/
+}
+.opts {
+    display: inline-block;
+    width: 100%;
+    position: absolute;
+    bottom: -15px;
+}
+.opts a {
+    display: inline-block;
+    width: 50% !important;
+    float: left;
+    text-align: center;
+}
+.opts.single-button a {
+    width: 100% !important;
+}
+
+.publik {
+    max-width: 500px;
+    margin: 0 auto;
+}
+#daftardata li {
+    padding: 10px 5px;
+    font-size: 16px;
+    border-bottom: 1px solid grey;
+    cursor: pointer;
+}
+#daftardata li:hover {
+    background-color: rgba(0,0,0,.3);
+}
+select:disabled {
+    background-color: rgba(0,0,0,.1);
+}
+.proses {
+    display: inline-block;
+    width: 100%;
+}
+.proses img {
+    width: 100%;
+}
+
+
+/* External */
+.backto{background:#039; padding:12px 0; color:#fff}
+.backto a{color:#FFF; text-decoration:none}
+.cards-row{padding-top:40px; padding-bottom:20px; background:#eee}
+.thumbnail{padding:0; border-radius:0; border:none; box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12)}
+.thumbnail>img{width:100%; display:block}
+.thumbnail h3{font-size:26px}
+.thumbnail h3,.card-description{margin:0; padding:8px 0; border-bottom:solid 1px #eee; text-align:left}
+.thumbnail p{padding-top:8px; font-size:16px}
+.thumbnail .btn{border-radius:0; box-shadow:0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12); font-size:16px}

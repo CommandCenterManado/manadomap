@@ -1,0 +1,16 @@
+<nav class="navbar navbar-default">
+    <div class="background"></div>
+    <ul class="nav navbar-nav">
+        <li ng-repeat-start="kec in vm.kecamatan" ng-click="vm.setKml('kec', kec.idkecamatan)" class="li-group"><a href="#">{{kec.nama_kecamatan}}</a></li>
+        <li ng-repeat-end class="li-addon dropup" uib-dropdown>
+            <a href="#" uib-dropdown-toggle ng-click="vm.ambilDataKelurahan(kec.idkecamatan)"><span class="caret"></span></a>
+            <ul class="dropdown-menu" uib-dropdown-menu>
+                <li ng-if="!vm.prosesAmbilDataKelurahan" ng-click="vm.setKml('kel', kel.idkelurahan)" ng-repeat="kel in vm.kelurahan"><a href="#">{{kel.nama_kelurahan}}</a></li>
+                <li ng-if="vm.prosesAmbilDataKelurahan">Tunggu</li>
+            </ul>
+        </li>
+    </ul>
+    <div class="right-wing-menu">
+        <button class="btn btn-default btn-float" ng-click="vm.setKml('all')" type="button">All</button>
+    </div>
+</nav>

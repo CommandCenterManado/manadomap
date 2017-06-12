@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>ketang_baru.kml</name>
+	<Style id="PolyStyle042">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>7f6e6e6e</color>
+			<width>0.4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f61ed9e</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="ID_00042">
+		<name>KETANG BARU</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>KETANG BARU</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>42</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESA</td>
+
+<td>KETANG BARU</td>
+
+</tr>
+
+<tr>
+
+<td>KECAMATAN</td>
+
+<td>SINGKIL</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>KABUPATEN</td>
+
+<td>MANADO</td>
+
+</tr>
+
+<tr>
+
+<td>PROVINSI</td>
+
+<td>SULAWESI UTARA</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area</td>
+
+<td>8.295274</td>
+
+</tr>
+
+<tr>
+
+<td>Poverty</td>
+
+<td>33</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Population</td>
+
+<td>3195</td>
+
+</tr>
+
+<tr>
+
+<td>Density</td>
+
+<td>385.159088</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PDAM</td>
+
+<td>195</td>
+
+</tr>
+
+<tr>
+
+<td>Longsor</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Banjir</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Growth</td>
+
+<td>12.9</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+		<styleUrl>#PolyStyle042</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							124.8535011377536,1.487437116354882,0 124.853491633557,1.487606144135114,0 124.8535048938301,1.487786421092327,0 124.8535264497231,1.488344330503146,0 124.8540194187212,1.488354770565353,0 124.8539675107388,1.489035135731969,0 124.8539724166068,1.489869553962432,0 124.8539749203639,1.490305060767096,0 124.853965193377,1.490477708022225,0 124.8538843544451,1.490510967906868,0 124.8536564978262,1.49062152125506,0 124.853546712995,1.490959772810429,0 124.8534846370764,1.491101957906169,0 124.8533365120865,1.491063810027744,0 124.8532435619077,1.491039625442291,0 124.8531286796086,1.491009853117765,0 124.8530065706499,1.490977449506176,0 124.8527213329964,1.490899993971649,0 124.8525675870743,1.490904194940591,0 124.8521055692032,1.491047732591616,0 124.85206855504,1.490782641989533,0 124.852047655123,1.490635136201912,0 124.85201229955,1.490384713929171,0 124.8519848960852,1.490233836949575,0 124.8519179353902,1.490249651148311,0 124.8518499424547,1.489843632617611,0 124.8518487847689,1.489761777771325,0 124.8518358533733,1.489656238970667,0 124.8517697973357,1.489386270850883,0 124.8514900186761,1.488368378897027,0 124.8514793636549,1.488209982190357,0 124.8522675978796,1.487803920802248,0 124.8526944583317,1.487628791753089,0 124.8532196005005,1.48749917121567,0 124.8535011377536,1.487437116354882,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>

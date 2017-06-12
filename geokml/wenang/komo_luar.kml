@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>komo_luar.kml</name>
+	<Style id="PolyStyle039">
+		<LabelStyle>
+			<color>00000000</color>
+			<scale>0</scale>
+		</LabelStyle>
+		<LineStyle>
+			<color>7f6e6e6e</color>
+			<width>0.4</width>
+		</LineStyle>
+		<PolyStyle>
+			<color>7f63a83e</color>
+		</PolyStyle>
+	</Style>
+	<Placemark id="ID_00039">
+		<name>KOMO LUAR</name>
+		<Snippet maxLines="0"></Snippet>
+		<description><![CDATA[<html xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:msxsl="urn:schemas-microsoft-com:xslt">
+
+<head>
+
+<META http-equiv="Content-Type" content="text/html">
+
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+</head>
+
+<body style="margin:0px 0px 0px 0px;overflow:auto;background:#FFFFFF;">
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-collapse:collapse;padding:3px 3px 3px 3px">
+
+<tr style="text-align:center;font-weight:bold;background:#9CBCE2">
+
+<td>KOMO LUAR</td>
+
+</tr>
+
+<tr>
+
+<td>
+
+<table style="font-family:Arial,Verdana,Times;font-size:12px;text-align:left;width:100%;border-spacing:0px; padding:3px 3px 3px 3px">
+
+<tr>
+
+<td>FID</td>
+
+<td>39</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>DESA</td>
+
+<td>KOMO LUAR</td>
+
+</tr>
+
+<tr>
+
+<td>KECAMATAN</td>
+
+<td>WENANG</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>KABUPATEN</td>
+
+<td>MANADO</td>
+
+</tr>
+
+<tr>
+
+<td>PROVINSI</td>
+
+<td>SULAWESI UTARA</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Area</td>
+
+<td>5.83698</td>
+
+</tr>
+
+<tr>
+
+<td>Poverty</td>
+
+<td>30</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Population</td>
+
+<td>2402</td>
+
+</tr>
+
+<tr>
+
+<td>Density</td>
+
+<td>411.514145</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>PDAM</td>
+
+<td>235</td>
+
+</tr>
+
+<tr>
+
+<td>Longsor</td>
+
+<td>0</td>
+
+</tr>
+
+<tr bgcolor="#D4E4F3">
+
+<td>Banjir</td>
+
+<td>2</td>
+
+</tr>
+
+<tr>
+
+<td>Growth</td>
+
+<td>10.28</td>
+
+</tr>
+
+</table>
+
+</td>
+
+</tr>
+
+</table>
+
+</body>
+
+</html>]]></description>
+		<styleUrl>#PolyStyle039</styleUrl>
+		<MultiGeometry>
+			<Polygon>
+				<outerBoundaryIs>
+					<LinearRing>
+						<coordinates>
+							124.8509115581859,1.488838619989069,0 124.8503178511617,1.48929789722415,0 124.8498601044868,1.489574043304714,0 124.8494153718062,1.4897078498823,0 124.8489471780473,1.489782809021331,0 124.8482621855473,1.489704240462572,0 124.8476766712586,1.489652249466545,0 124.847362355431,1.489382198663916,0 124.8477483890669,1.488993044455119,0 124.8478753430345,1.488843424214936,0 124.8479143214368,1.488745398652282,0 124.8479233932712,1.48867745692404,0 124.8479126414125,1.488566902437966,0 124.8479087278918,1.488522659532388,0 124.8484778245572,1.488346516425297,0 124.8490897857816,1.487983966059841,0 124.8493150777114,1.487844558151701,0 124.8500663138813,1.487357603933634,0 124.8502901441132,1.487771003728835,0 124.8505061432924,1.488204017876999,0 124.8507605341078,1.488630327687059,0 124.8509115581859,1.488838619989069,0 
+						</coordinates>
+					</LinearRing>
+				</outerBoundaryIs>
+			</Polygon>
+		</MultiGeometry>
+	</Placemark>
+</Document>
+</kml>
